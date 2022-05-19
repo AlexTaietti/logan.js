@@ -1,0 +1,16 @@
+{
+  "name": "logger_lib",
+  "version": "1.0.0",
+  "description": "A super simple logger for javascript applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && node ./dist/dev/index.js",
+    "dev": "tsc-watch --onSuccess 'node ./dist/dev/index.js'"
+  },
+  "author": "Alex Taietti <aletaietti@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.6.4"
+  }
+}
